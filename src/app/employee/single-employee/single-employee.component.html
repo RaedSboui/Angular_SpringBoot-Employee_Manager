@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img style="max-width: 400px;" [src]="employee.imageUrl"/>
+    <h1>Name: {{ employee.name }} </h1>
+    <h3>Email: {{ employee.user.email }} </h3>
+    <h3>Title: {{ employee.jobTitle }} </h3>
+    <h3>Phone: {{ employee.phone }} </h3>
+    <h3>Code: {{ employee.employeeCode }} </h3>
+    <button class="btn btn-default" [ routerLink ]="['/employees']">Return</button>
+  </div>
+</div>
